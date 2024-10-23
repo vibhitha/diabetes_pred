@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the saved RandomForest model
-model = joblib.load('diabetes_model.pkl')
+model = joblib.load('diabetes_model_compressed.pkl')
 
 # Initialize the Flask app
 app = Flask(__name__)
