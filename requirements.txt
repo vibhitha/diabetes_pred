@@ -1,5 +1,6 @@
 scikit-learn
 joblib==1.2.0
-pandas==2.0.3
+pandas>=2.0.3
+numpy>=1.23.0
 Flask>=2.0.0
 Werkzeug>=2.0.0
